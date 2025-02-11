@@ -1,0 +1,120 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #e8e8e8;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; /* Espacio entre los enlaces */
+    background-color: #464646;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-radius: 100px; /* Bordes redondeados */
+    transition: background-color 0.3s ease-in-out; /* Transición */
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    background-color: #505050;
+    color:  #007AFF; /* Cambio de color del texto al pasar el ratón */
+    transform: scale(1.1);
+}
+
+.doctor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #343333;
+}
+
+.tarjeta-doctor {
+    width: 500px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+   text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-doctor h2 {
+    color:  #007AFF;
+}
+
+
+input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    color: #ffff;
+    background-color: #007AFF;
+    border-radius: 100px;
+    border-color: white;
+    min-width: 150px;
+    transition: transform 0.3s ease-in-out; /* Hace que la transicion sea suave */
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.10); /* Aumenta el tamaño un 10% */
+}
+
+
+
+.pacientes{
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias líneas */
+    padding: 40px 20px;
+}
+
+.tarjeta-pacientes {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 4px 20px #0000001a; /* Sombra suave */
+    transition: transform 0.3s ease-in-out;
+}
+
+.tarjeta-pacientes:hover {
+    transform: scale(1.07); /* Efecto de agrandar al pasar el mouse */
+}
+
+.tarjeta-pacientes h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #303030;
+}
+
+.tarjeta-pacientes p {
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.tarjeta-pacientes span {
+    font-size: 0.9rem;
+    color: gray;
+}

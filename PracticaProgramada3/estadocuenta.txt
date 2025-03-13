@@ -1,0 +1,10 @@
+Estado de Cuenta:
+
+Transacción #1: Compra en supermercado - $150
+Transacción #2: Pago de servicios - $200
+Transacción #3: Compra en línea - $100
+
+Monto Total de Contado: $450
+Monto con Intereses (2.6%): $461.7
+Cash Back (0.1%): $0.45
+Monto Final a Pagar: $461.25
